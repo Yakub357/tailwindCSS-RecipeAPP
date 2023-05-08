@@ -4,7 +4,7 @@
       <nav>
         <div>
           <h1 class="font-bold uppercase p-4 border-b border-gray-100">
-            <a href="/" class="">Food Ninja</a>
+            <a href="/" class="hover:text-gray-700">Food Ninja</a>
           </h1>
         </div>
         <ul>
@@ -70,10 +70,14 @@
     </div>
     <main class="px-16 py-6 bg-gray-300 md:col-span-2">
       <div class="flex justify-center md:justify-end">
-        <a href="#" class="text-primary btn border-primary md:border-2"
+        <a
+          href="#"
+          class="text-primary btn border-primary md:border-2 hover:bg-primary hover:text-white"
           >Log in</a
         >
-        <a href="#" class="text-primary ml-2 btn border-primary md:border-2"
+        <a
+          href="#"
+          class="text-primary ml-2 btn border-primary md:border-2 hover:bg-primary hover:text-white"
           >Sign up</a
         >
       </div>
@@ -90,7 +94,7 @@
 
         <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <!-- *cards go here -->
-          <div class="card">
+          <div class="card hover:shadow-lg">
             <img
               src="../assets/stew.jpg"
               alt="stew"
@@ -118,7 +122,7 @@
               <span>25 mins</span>
             </div>
           </div>
-          <div class="card">
+          <div class="card hover:shadow-lg">
             <img
               src="../assets/noodles.jpg"
               alt="stew"
@@ -146,7 +150,7 @@
               <span>40 mins</span>
             </div>
           </div>
-          <div class="card">
+          <div class="card hover:shadow-lg">
             <img
               src="../assets/curry.jpg"
               alt="stew"
@@ -186,7 +190,9 @@
       </div>
 
       <div class="flex justify-center">
-        <div class="bg-secondary-100 text-secondary-200 btn">Load more</div>
+        <div class="bg-secondary-100 text-secondary-200 btn hover:shadow-inner">
+          Load more
+        </div>
       </div>
     </main>
   </div>
